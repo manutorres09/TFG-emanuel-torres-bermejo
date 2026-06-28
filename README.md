@@ -1,4 +1,4 @@
-#Plataforma de Análisis Inteligente para Scouting Estratégico en Básquetbol.
+# Plataforma de Análisis Inteligente para Scouting Estratégico en Básquetbol.
 
 Plataforma web de scouting y analítica avanzada para básquetbol federado argentino, desarrollada para la Confederación Argentina de Básquetbol (CABB).
 
