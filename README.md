@@ -1,4 +1,4 @@
-# SmartScout IA
+#Plataforma de Análisis Inteligente para Scouting Estratégico en Básquetbol.
 
 Plataforma web de scouting y analítica avanzada para básquetbol federado argentino, desarrollada para la Confederación Argentina de Básquetbol (CABB).
 
@@ -164,12 +164,12 @@ Abrí el navegador en `http://localhost:5173`
 
 ## Cargar un partido
 
-El repositorio incluye un archivo de ejemplo en `scripts/estadisticaPartido_20264191.xlsx` para probar el procesamiento sin necesidad de contar con una planilla propia.
+El repositorio incluye un archivo de ejemplo en `scripts/estadisticaPartido_215354.xlsx` para probar el procesamiento sin necesidad de contar con una planilla propia.
 
 Para procesarlo ejecutá:
 
 ```bash
-python scripts/procesar_partido.py "scripts/estadisticaPartido_20264191.xlsx"
+python scripts/procesar_partido.py "scripts/estadisticaPartido_2026215354.xlsx"
 ```
 
 El script lee la planilla, calcula las métricas avanzadas y carga todos los datos en Supabase automáticamente. Una vez completado, el partido aparece en la sección **Historial de Partidos** de la aplicación.
@@ -199,7 +199,7 @@ TFG-emanuel-torres-bermejo/
 │   └── App.jsx
 ├── scripts/
 │   ├── procesar_partido.py
-│   └── estadisticaPartido_20264191.xlsx
+│   └── estadisticaPartido_2026215354.xlsx
 ├── .gitignore
 └── README.md
 ```
